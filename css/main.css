@@ -199,6 +199,49 @@ footer {
 	color: rgb(42, 42, 255);
 }
 
+.project-item1 {
+	height: 300px;
+	width: 100%;
+	display: grid;
+	grid-column-gap: 15px;
+	grid-template-columns: 300px 150px 150px;
+}
+
+.project-item1 > img {
+	height: 200px;
+	width: 300px;
+	float: left;
+	padding-top: 50px;
+	margin-left: 20px;
+	display: grid;
+}
+
+.project1-desc {
+	padding-left: 25px;
+	padding-top: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+}
+
+.project-buttons > button {
+	display: flex;
+	flex-direction: column;
+	height: 30px;
+	margin-bottom: 25px;
+	margin-top: 50px;
+	width: 100px;
+	align-items: center;
+	cursor: pointer;
+	background-color: #06f;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+}
+
+.project-buttons > button:hover {
+	opacity: .9;
+}
+
 @media (max-width: 768px) {
 	.nav-bar > h2 {
 		margin-bottom: 0px;
